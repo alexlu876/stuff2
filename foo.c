@@ -4,7 +4,7 @@
 
 int main(){
   int cool[10];
-  srand(1234);
+  srand(time(NULL));
   int i;
   for(i = 0; i < 9; i++){
     cool[i] = rand();
